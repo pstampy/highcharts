@@ -1,0 +1,272 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*#messages.grid-12, .tabs.clearfix {
+	display: none;
+	visibility: hidden;
+}*/
+
+/*------------------------------*/
+
+* { 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	letter-spacing: 0;
+}
+
+h1 {
+	line-height: 1.2em;
+}
+
+h2 {
+	line-height: 1.1em;
+}
+
+p {
+	font-size: 1.0em;
+}
+
+ul, ol{
+	margin-left: 2.5em;
+}
+
+thead {
+	font:bold;
+}
+
+#section-header{
+	padding: 20px;
+	background-color: #1d2d40;
+}
+#zone-content ol, #zone-content ul{
+	font-size: 1.3em;
+}
+
+#zone-top-menu, #zone-branding, #zone-content, #zone-footer {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+/* Top menu/Industry link */
+
+#zone-top-menu-wrapper {
+	background: #1d2d40; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1d2d40 0%, #30486a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1d2d40), color-stop(100%,#30486a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1d2d40 0%,#30486a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2d40', endColorstr='#30486a',GradientType=1 ); /* IE6-9 */
+}
+
+#zone-top-menu {
+	padding-top: 10px;
+}
+
+#region-branding-left img {
+	margin: 40px 0 15px 0;
+}
+
+#region-branding-left h1 {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	overflow: hidden;	
+}
+
+#region-top-menu-right li {
+	display: inline;
+	font-size: 1.2em;
+}
+
+#region-top-menu-right li a {
+	color: #fff;
+}
+
+
+
+
+/* Top content blocks */
+
+.top-block {
+	background-color: #F7F7F7;
+	padding: 40px 40px 20px 40px;
+	margin-bottom: 4px;
+}
+
+.top-block h2 {
+	font-size: 2.6em;
+	line-height: 1.2em;
+
+}
+
+.top-block p {
+	font-size: 1.5em;
+	line-height: 1.3em;
+}
+
+/* Filtering bit */
+.views-exposed-form label.option {
+    font-weight: normal;
+
+}
+
+
+
+
+@media(min-device-width: 740px) and (min-width: 740px){
+.views-exposed-widgets {
+    margin-top: 5em;
+    
+}
+
+
+}
+
+
+/* Calendar and News section */
+
+#upper-left, #upper-right {
+	background-color: #F7F7F7;
+	border-top: 9px solid #D6D6D6;
+	padding: 10px;
+	margin-top: 30px;
+	min-height: 360px;
+}
+
+#upper-left h2, #upper-right h2 {
+	font-size: 2.6em;
+	line-height: 1.2em;
+	height: 59px;
+	padding-left: 69px;
+}
+
+#upper-left li {
+	margin-left: 15px;
+}
+#upper-right li{
+	margin-left: 0;
+}
+
+#calendar-title h2 {
+	background: url('../img/calendar-icon.png') no-repeat left center;
+}
+
+#news-title h2 {
+	background: url('../img/news-icon.png') no-repeat left center;
+}
+
+.day {
+	width: 20px;
+}
+
+.month {
+	width: 40px;
+}
+
+.day, .month {
+	float: left;
+	margin-right: 5px;
+	color: #910303;
+	text-transform: uppercase;
+}
+
+/* Documents, videos and Submission guidelines sections */
+
+#middle-left, #middle-centre, #middle-right {
+	background-color: #F7F7F7;
+	border-top: 9px solid #D6D6D6;
+	padding: 10px;
+	margin-top: 30px;
+	min-height: 250px;
+}
+
+#middle-left h2, #middle-centre h2, #middle-right h2 {
+	font-size: 2em;
+	line-height: 1em;
+}
+
+#middle-left h2 {
+	background: url('../img/documents-icon.png') no-repeat left center;
+	height: 59px;
+	padding-left: 69px;
+}
+
+#middle-centre h2 {
+	background: url('../img/supporting-documents-icon.png') no-repeat left center;
+	height: 59px;
+	padding-left: 69px;
+}
+
+#middle-right h2 {
+	background: url('../img/submission-guidelines-icon.png') no-repeat left center;
+	height: 59px;
+	padding-left: 69px;
+}
+
+#middle-left li, #middle-centre li, #middle-right li {
+	list-style: disc;
+}
+
+#middle-left li a, #middle-centre li a, #middle-right li a {
+	/*font-size: 1.3em;*/
+}
+
+/* Content template */
+
+#panels-ipe-regionid-left {
+	background-color: #f5f5f5;
+}
+
+#panels-ipe-regionid-left {
+	padding: 1em 2em;
+}
+.pane-node-updated{
+	font-weight: normal;
+	margin-top: 5.5em;
+	text-align: right;
+}
+.pane-node-updated h2{
+	color: #777;
+	font-size: 90%;
+	margin-bottom: 0;
+}
+
+
+/* Footer */
+
+footer {
+	margin-top: 30px;
+	background: #1d2d40; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1d2d40 0%, #30486a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1d2d40), color-stop(100%,#30486a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1d2d40 0%,#30486a 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1d2d40 0%,#30486a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2d40', endColorstr='#30486a',GradientType=1 ); /* IE6-9 */
+}
+
+#zone-footer {
+	padding: 20px;
+}
+
+#region-sub-footer ul {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#region-sub-footer li {
+	display: inline;
+}
+
+#region-sub-footer li a {
+	color: #fff;
+}
+
